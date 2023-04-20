@@ -44,6 +44,6 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: git-hub-action-aws
         environment_name: Githubactionaws-env
-        version_label: 12348
+        version_label: v1
         region: "ap-south-1"
         deployment_package: deploy.zip
